@@ -1,0 +1,23 @@
+{
+  "plugins": ["stylelint-scss"],
+  "extends": ["stylelint-config-standard", "stylelint-config-standard-scss", "stylelint-config-prettier"],
+  "ignoreFiles": ["dist/css/*"],
+  "rules": {
+    "indentation": 2,
+    "block-no-empty": true,
+    "font-family-no-missing-generic-family-keyword": null,
+    "no-descending-specificity": null,
+    "keyframes-name-pattern": null,
+    "selector-class-pattern": null,
+    "color-hex-case": "lower",
+    "color-hex-length": "long",
+    "color-named": "never",
+    "declaration-colon-space-after": "always",
+    "declaration-block-semicolon-newline-after": "always",
+    "selector-combinator-space-after": "always",
+    "selector-combinator-space-before": "always",
+    "block-opening-brace-space-before": "always",
+    "declaration-block-trailing-semicolon": "always",
+    "font-weight-notation": "numeric"
+  }
+}
